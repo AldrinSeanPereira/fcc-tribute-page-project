@@ -1,0 +1,129 @@
+** start of html **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" value="width=device-width, initial-scale=1.0">
+    <title>Chester Bennington</title>
+  </head>
+  <body>
+    <main id="main">
+      <div id="page-content">
+        <h1 id="title">Chester Bennington</h1>
+        <p id="tribute-info">The God of Vocals</p>
+        <div id="img-div">
+          <img id="image" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.7SgjzUkEYo-DYwzcW1cEqAHaI8%26pid%3DApi&f=1&ipt=ad0046613023555562b797bb63fe4d0bde4e4bc20c2538beb1ac2033383f7804&ipo=images"></img>
+          <figcaption id="img-caption">Chester Bennington</figcaption>
+        </div>
+        <div id="lifestory-div">
+            <ul>
+              <li><b>Born</b> - March 20, 1976</li>
+              <li><b>Died</b> - July 20, 2017</li>
+            <ul>
+        </div>
+        <h3>If you have time, you should read more about this amazing human being on his <a id="tribute-link" href="https://en.wikipedia.org/wiki/Chester_Bennington" target="_blank">Wikipedia Entry</a></h3>
+      </div>
+    </main>
+  </body>
+</html>
+
+** end of html **
+
+** start of styles.css **
+
+* {
+  box-sizing: border-box;
+}
+
+#image {
+  max-width: 100%;
+  width: 100%;
+  border: 2px solid rgb(54, 33, 33);
+  margin: 0;
+  padding: 0;
+}
+
+#img-div {
+  background: rgb(238, 228, 228);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 0;
+  min-width: 250px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+#img-caption {
+  font-size: 18px;
+  margin: 8px;
+}
+
+#img-div,
+#image {
+  border-radius: 1%;
+}
+
+#title,
+#tribute-info, 
+#img-caption,
+ul li,
+h3 {
+  text-align: center;
+}
+
+#title,
+#tribute-info {
+  font-family: Helvetica;
+}
+
+#tribute-info {
+  font-size: 18px;
+}
+
+#page-content {
+  min-width: 250px;
+  max-width: 100%;
+  background: rgb(195, 206, 169);
+  margin: 20px 10px;
+  padding: 1px 0px;
+  border-radius: 1%;
+}
+
+#title {
+  margin: 20px;
+}
+
+#tribute-info {
+margin-top: none;
+}
+
+#lifestory-div {
+  border: 0px solid red;
+  font-size: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li{
+  text-align: left;
+  margin-bottom: 7px;
+}
+
+h3 {
+  border: 0px solid blue;
+  margin-top: -10px;
+}
+
+** end of styles.css **
+
